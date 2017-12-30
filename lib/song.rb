@@ -53,7 +53,7 @@ class Song
     end
   end
 
-  def self.new_from_filename(artist_name-name)
+  def self.new_from_filename(name)
     binding.pry
   end
 
