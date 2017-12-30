@@ -53,7 +53,8 @@ class Song
     end
   end
 
-  def self.new_from_filename
+  def self.new_from_filename(artist_name-name)
+    
   end
 
   def self.create_from_filename
