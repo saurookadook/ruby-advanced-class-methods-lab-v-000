@@ -59,6 +59,7 @@ class Song
     filename_array = filename.chomp(".mp3").split(" - ")
     new_song.artist_name = filename_array[0]
     new_song.name = filename_array[1]
+    new_song.save
   end
 
   def self.create_from_filename
