@@ -19,7 +19,6 @@ class Song
   end
 
   def self.new_by_name(song_name)
-    binding.pry
     new_song = self.new
     new_song.name = song_name
     new_song
@@ -57,8 +56,7 @@ class Song
   def self.new_from_filename(filename)
     binding.pry
     filename_array = filename.chomp(".mp3").split(" - ")
-    filename_array[0] = self.artist_name
-    filename_array[1] = self.name
+    self.create
   end
 
   def self.create_from_filename
