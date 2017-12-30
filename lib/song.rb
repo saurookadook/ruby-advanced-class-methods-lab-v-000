@@ -59,7 +59,6 @@ class Song
     filename_array = filename.chomp(".mp3").split(" - ")
     new_song.artist_name = filename_array[0]
     new_song.name = filename_array[1]
-    binding.pry
     new_song.save
     new_song
   end
