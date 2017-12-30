@@ -54,7 +54,7 @@ class Song
   end
 
   def self.new_from_filename(artist_name-name)
-    
+    binding.pry
   end
 
   def self.create_from_filename
