@@ -61,6 +61,7 @@ class Song
     new_song.name = filename_array[1]
     binding.pry
     new_song.save
+    new_song
   end
 
   def self.create_from_filename
